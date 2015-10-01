@@ -15,6 +15,7 @@ gem "jquery-rails"
 group :development, :test do
   gem "database_cleaner", "1.3.0"
   gem "rspec-rails", "3.3.3"
+  gem "teaspoon-qunit", "1.18.0"
   gem "ffaker"
 end
 
