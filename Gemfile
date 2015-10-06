@@ -12,6 +12,10 @@ gem "uglifier", ">= 1.3.0"
 gem "bootstrap-sass", "3.3.5.1"
 gem "jquery-rails"
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-backbone', "1.2.3"
+end
+
 group :development, :test do
   gem "database_cleaner", "1.3.0"
   gem "rspec-rails", "3.3.3"
